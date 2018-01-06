@@ -7,12 +7,12 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class JokeControllers {
+public class JokeController {
 
     private JokeService jokeService;
 
     @Autowired
-    public JokeControllers(JokeService jokeService) {
+    public JokeController(JokeService jokeService) {
         this.jokeService = jokeService;
     }
 
